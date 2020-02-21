@@ -1,0 +1,41 @@
+.carousel {
+  min-height: 100vh; }
+  .carousel-item {
+    height: 100vh; }
+  .carousel-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+    padding: 25px 25px 50px 25px; }
+    @media screen and (min-width: 768px) {
+      .carousel-caption {
+        padding: 60px; } }
+    .carousel-caption img {
+      max-height: 100px; }
+      @media only screen and (min-width: 768px) {
+        .carousel-caption img {
+          max-height: auto; } }
+    .carousel-caption-top {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; }
+    .carousel-caption-center {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .carousel-caption-bottom {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+/*# sourceMappingURL=slider-test.css.map */
